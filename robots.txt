@@ -1,3 +1,4 @@
 User-agent: Googlebot-Image
 
 Disallow: /FELON.svg
+Disallow: /001.jpg
