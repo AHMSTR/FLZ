@@ -289,4 +289,12 @@ text-align: left !important;
 <br><br><div>
 <a href="https://instagram.com/felonofficial" style="font-size:14.5px;margin-bottom:;padding:;text-align:left!important;display:;">@FELONOFFICIAL</a>
 <br><br><a href="mailto:info@felon.co.za" style="font-size:14.5px;margin-top:;padding:;text-align:right!important;display:;">INFO@FELON.CO.ZA</a></div>
-<div style="font-family:none;font-size:15px;font-weight:normal!important;margin-top:75px;padding-bottom:75px;;display:;text-align:left!important;margin-left:25px;text-transform:none!important;">© 2024 <a href="/">FELON</a>. All Rights Reserved.</div></div></body></html>
+<div style="font-family:none;font-size:15px;font-weight:normal!important;margin-top:75px;padding-bottom:75px;;display:;text-align:left!important;margin-left:25px;text-transform:none!important;">© 2024 <a href="/">FELON</a>. All Rights Reserved.<div id="currentTime"></div>
+    <script>
+      const element = document.getElementById('currentTime');
+      
+      setInterval(function () {
+        const currentDate = new Date();
+        element.innerText = currentDate.getHours() + ":" + currentDate.getMinutes() + ":" + currentDate.getSeconds();
+      }, 1000);
+		  </script></div></div></body></html>
